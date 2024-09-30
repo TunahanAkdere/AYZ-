@@ -100,7 +100,7 @@ ol {
 }
 
 .set-bg {
-	background-repeat: no-repeat;
+	background-color: #000;
 	background-size: cover;
 	background-position: top center;
 }
@@ -292,7 +292,7 @@ ol {
 	list-style: none;
 	display: inline-block;
 	position: relative;
-	margin-right: 40px;
+	margin-right: 35px;
 }
 
 .header__menu ul li.active a:after {
@@ -322,7 +322,7 @@ ol {
 	left: 0;
 	top: 62px;
 	width: 140px;
-	background: #ffffff;
+	background: #ffffff75;
 	text-align: left;
 	padding: 5px 0;
 	z-index: 9;
@@ -365,7 +365,7 @@ ol {
 	bottom: 0;
 	height: 2px;
 	width: 100%;
-	background: #dfa667;
+	background: #ffffff;
 	content: "";
 	-webkit-transition: all, 0.4s;
 	-o-transition: all, 0.4s;
@@ -382,7 +382,7 @@ ol {
 .header__widget span {
 	font-size: 14px;
 	font-family: "Aldrich", sans-serif;
-	color: #b7b7b7;
+	color: #ffffff;
 	display: block;
 	margin-bottom: 10px;
 }
@@ -1224,13 +1224,13 @@ ol {
 -----------------------*/
 
 .footer {
-	padding-top: 90px;
+	padding-top: 50px;
 }
 
 .footer__top {
-	border-bottom: 1px solid rgba(183, 183, 183, 0.2);
-	padding-bottom: 75px;
-	margin-bottom: 85px;
+	border-bottom: 1px solid rgb(183, 183, 183);
+	padding-bottom: 25px;
+	margin-bottom: 25px;
 }
 
 .footer__top__text h2 {
@@ -1239,55 +1239,11 @@ ol {
 	text-transform: uppercase;
 }
 
-.footer__top__newslatter form {
-	position: relative;
-}
-
-.footer__top__newslatter form input {
-	width: 100%;
-	height: 50px;
-	color: #b7b7b7;
-	padding-left: 30px;
-	font-size: 14px;
-	border: none;
-}
-
-.footer__top__newslatter form input::-webkit-input-placeholder {
-	color: #b7b7b7;
-}
-
-.footer__top__newslatter form input::-moz-placeholder {
-	color: #b7b7b7;
-}
-
-.footer__top__newslatter form input:-ms-input-placeholder {
-	color: #b7b7b7;
-}
-
-.footer__top__newslatter form input::-ms-input-placeholder {
-	color: #b7b7b7;
-}
-
-.footer__top__newslatter form input::placeholder {
-	color: #b7b7b7;
-}
-
-.footer__top__newslatter form button {
-	font-size: 14px;
-	color: #ffffff;
-	background: #dfa667;
-	border: none;
-	height: 100%;
-	padding: 0 20px;
-	position: absolute;
-	right: 0;
-	top: 0;
-}
-
 .footer__about {
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 }
 
+/* AYZ LOGO Footer*/
 .footer__about .footer__logo {
 	margin-bottom: 24px;
 }
@@ -1301,7 +1257,7 @@ ol {
 }
 
 .footer__about ul {
-	margin-bottom: 38px;
+	margin-bottom: 30px;
 }
 
 .footer__about ul li {
@@ -1310,6 +1266,7 @@ ol {
 	line-height: 26px;
 	color: #707070;
 }
+
 
 .footer__about .footer__social a {
 	font-size: 18px;
@@ -1349,6 +1306,14 @@ ol {
 	line-height: 36px;
 }
 
+.footer__widget ul li a:hover {
+	font-size: 15px;
+	color: #ffffff;
+	line-height: 36px;
+	transition: 0.5s;
+}
+
+
 .footer__address {
 	margin-bottom: 30px;
 }
@@ -1362,6 +1327,8 @@ ol {
 
 .footer__address p {
 	margin-bottom: 30px;
+	font-weight: 100;
+	color: white;
 }
 
 .footer__address ul li {
@@ -1451,6 +1418,8 @@ ol {
 	color: #dfa667;
 	display: inline-block;
 }
+
+
 
 /*---------------------
   About
